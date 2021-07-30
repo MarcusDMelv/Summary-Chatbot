@@ -119,8 +119,7 @@ def ai_creator():
 
 def ai_speak():
     # generated random sayings+++++++++++++++++++++++++
-    SallyTalking = ['In this country, you gotta make the money first. Then when you get the money, you get the power.',
-                    'who! Who do I trust? Me!', 'Marcus you the realest nigga I know']
+    SallyTalking = ['Hello']
     sallytalks = random.choice(SallyTalking)
     file = open("ai.txt", "w")
     # ai writes output in a file
